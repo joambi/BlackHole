@@ -132,7 +132,7 @@ static Boolean                      gBox_Acquired                       = true;
 #define                             kDevice_UID                         "BlackHole%ich_UID"
 #define                             kDevice_ModelUID                    "BlackHole%ich_ModelUID"
 static pthread_mutex_t              gDevice_IOMutex                     = PTHREAD_MUTEX_INITIALIZER;
-static Float64                      gDevice_SampleRate                  = 44100.0;
+static Float64                      gDevice_SampleRate                  = 48000.0;
 static UInt64                       gDevice_IOIsRunning                 = 0;
 static const UInt32                 kDevice_RingBufferSize              = 16384;
 static Float64                      gDevice_HostTicksPerFrame           = 0.0;
@@ -161,7 +161,7 @@ static UInt32                       gDataSource_Input_Master_Value      = 0;
 static UInt32                       gDataSource_Output_Master_Value     = 0;
 
 #define                             LATENCY_FRAME_SIZE                  0
-#define                             NUMBER_OF_CHANNELS                  16
+#define                             NUMBER_OF_CHANNELS                  64
 #define                             BITS_PER_CHANNEL                    32
 #define                             BYTES_PER_CHANNEL                   (BITS_PER_CHANNEL / 8)
 #define                             BYTES_PER_FRAME                     (NUMBER_OF_CHANNELS * BYTES_PER_CHANNEL)

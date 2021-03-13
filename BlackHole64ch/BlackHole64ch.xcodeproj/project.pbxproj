@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		952BA40925F3B89D00BCB5DF /* BlackHole64chApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952BA40825F3B89D00BCB5DF /* BlackHole64chApp.swift */; };
+		952BA40B25F3B89D00BCB5DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952BA40A25F3B89D00BCB5DF /* ContentView.swift */; };
+		952BA40D25F3B89F00BCB5DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952BA40C25F3B89F00BCB5DF /* Assets.xcassets */; };
+		952BA41025F3B89F00BCB5DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952BA40F25F3B89F00BCB5DF /* Preview Assets.xcassets */; };
+		952BA41225F3B89F00BCB5DF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952BA41125F3B89F00BCB5DF /* Persistence.swift */; };
+		952BA41525F3B89F00BCB5DF /* BlackHole64ch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 952BA41325F3B89F00BCB5DF /* BlackHole64ch.xcdatamodeld */; };
+		952BA42025F3B89F00BCB5DF /* BlackHole64chTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952BA41F25F3B89F00BCB5DF /* BlackHole64chTests.swift */; };
+		952BA42B25F3B89F00BCB5DF /* BlackHole64chUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952BA42A25F3B89F00BCB5DF /* BlackHole64chUITests.swift */; };
+		954C05ED25FCFD7A005B94C5 /* BlackHole64ch.app in Resources */ = {isa = PBXBuildFile; fileRef = 952BA40525F3B89D00BCB5DF /* BlackHole64ch.app */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		952BA41C25F3B89F00BCB5DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 952BA3FD25F3B89D00BCB5DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 952BA40425F3B89D00BCB5DF;
+			remoteInfo = BlackHole64ch;
+		};
+		952BA42725F3B89F00BCB5DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 952BA3FD25F3B89D00BCB5DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 952BA40425F3B89D00BCB5DF;
+			remoteInfo = BlackHole64ch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		952BA40525F3B89D00BCB5DF /* BlackHole64ch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackHole64ch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		952BA40825F3B89D00BCB5DF /* BlackHole64chApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackHole64chApp.swift; sourceTree = "<group>"; };
+		952BA40A25F3B89D00BCB5DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		952BA40C25F3B89F00BCB5DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		952BA40F25F3B89F00BCB5DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		952BA41125F3B89F00BCB5DF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		952BA41425F3B89F00BCB5DF /* BlackHole64ch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlackHole64ch.xcdatamodel; sourceTree = "<group>"; };
+		952BA41625F3B89F00BCB5DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		952BA41B25F3B89F00BCB5DF /* BlackHole64chTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackHole64chTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		952BA41F25F3B89F00BCB5DF /* BlackHole64chTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackHole64chTests.swift; sourceTree = "<group>"; };
+		952BA42125F3B89F00BCB5DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		952BA42625F3B89F00BCB5DF /* BlackHole64chUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackHole64chUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		952BA42A25F3B89F00BCB5DF /* BlackHole64chUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackHole64chUITests.swift; sourceTree = "<group>"; };
+		952BA42C25F3B89F00BCB5DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		952BA40225F3B89D00BCB5DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952BA41825F3B89F00BCB5DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952BA42325F3B89F00BCB5DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		952BA3FC25F3B89D00BCB5DF = {
+			isa = PBXGroup;
+			children = (
+				952BA40725F3B89D00BCB5DF /* BlackHole64ch */,
+				952BA41E25F3B89F00BCB5DF /* BlackHole64chTests */,
+				952BA42925F3B89F00BCB5DF /* BlackHole64chUITests */,
+				952BA40625F3B89D00BCB5DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		952BA40625F3B89D00BCB5DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				952BA40525F3B89D00BCB5DF /* BlackHole64ch.app */,
+				952BA41B25F3B89F00BCB5DF /* BlackHole64chTests.xctest */,
+				952BA42625F3B89F00BCB5DF /* BlackHole64chUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		952BA40725F3B89D00BCB5DF /* BlackHole64ch */ = {
+			isa = PBXGroup;
+			children = (
+				952BA40825F3B89D00BCB5DF /* BlackHole64chApp.swift */,
+				952BA40A25F3B89D00BCB5DF /* ContentView.swift */,
+				952BA40C25F3B89F00BCB5DF /* Assets.xcassets */,
+				952BA41125F3B89F00BCB5DF /* Persistence.swift */,
+				952BA41625F3B89F00BCB5DF /* Info.plist */,
+				952BA41325F3B89F00BCB5DF /* BlackHole64ch.xcdatamodeld */,
+				952BA40E25F3B89F00BCB5DF /* Preview Content */,
+			);
+			path = BlackHole64ch;
+			sourceTree = "<group>";
+		};
+		952BA40E25F3B89F00BCB5DF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				952BA40F25F3B89F00BCB5DF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		952BA41E25F3B89F00BCB5DF /* BlackHole64chTests */ = {
+			isa = PBXGroup;
+			children = (
+				952BA41F25F3B89F00BCB5DF /* BlackHole64chTests.swift */,
+				952BA42125F3B89F00BCB5DF /* Info.plist */,
+			);
+			path = BlackHole64chTests;
+			sourceTree = "<group>";
+		};
+		952BA42925F3B89F00BCB5DF /* BlackHole64chUITests */ = {
+			isa = PBXGroup;
+			children = (
+				952BA42A25F3B89F00BCB5DF /* BlackHole64chUITests.swift */,
+				952BA42C25F3B89F00BCB5DF /* Info.plist */,
+			);
+			path = BlackHole64chUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		952BA40425F3B89D00BCB5DF /* BlackHole64ch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952BA42F25F3B89F00BCB5DF /* Build configuration list for PBXNativeTarget "BlackHole64ch" */;
+			buildPhases = (
+				952BA40125F3B89D00BCB5DF /* Sources */,
+				952BA40225F3B89D00BCB5DF /* Frameworks */,
+				952BA40325F3B89D00BCB5DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlackHole64ch;
+			productName = BlackHole64ch;
+			productReference = 952BA40525F3B89D00BCB5DF /* BlackHole64ch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		952BA41A25F3B89F00BCB5DF /* BlackHole64chTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952BA43225F3B89F00BCB5DF /* Build configuration list for PBXNativeTarget "BlackHole64chTests" */;
+			buildPhases = (
+				952BA41725F3B89F00BCB5DF /* Sources */,
+				952BA41825F3B89F00BCB5DF /* Frameworks */,
+				952BA41925F3B89F00BCB5DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				952BA41D25F3B89F00BCB5DF /* PBXTargetDependency */,
+			);
+			name = BlackHole64chTests;
+			productName = BlackHole64chTests;
+			productReference = 952BA41B25F3B89F00BCB5DF /* BlackHole64chTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		952BA42525F3B89F00BCB5DF /* BlackHole64chUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952BA43525F3B89F00BCB5DF /* Build configuration list for PBXNativeTarget "BlackHole64chUITests" */;
+			buildPhases = (
+				952BA42225F3B89F00BCB5DF /* Sources */,
+				952BA42325F3B89F00BCB5DF /* Frameworks */,
+				952BA42425F3B89F00BCB5DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				952BA42825F3B89F00BCB5DF /* PBXTargetDependency */,
+			);
+			name = BlackHole64chUITests;
+			productName = BlackHole64chUITests;
+			productReference = 952BA42625F3B89F00BCB5DF /* BlackHole64chUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		952BA3FD25F3B89D00BCB5DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					952BA40425F3B89D00BCB5DF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					952BA41A25F3B89F00BCB5DF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 952BA40425F3B89D00BCB5DF;
+					};
+					952BA42525F3B89F00BCB5DF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 952BA40425F3B89D00BCB5DF;
+					};
+				};
+			};
+			buildConfigurationList = 952BA40025F3B89D00BCB5DF /* Build configuration list for PBXProject "BlackHole64ch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 952BA3FC25F3B89D00BCB5DF;
+			productRefGroup = 952BA40625F3B89D00BCB5DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				952BA40425F3B89D00BCB5DF /* BlackHole64ch */,
+				952BA41A25F3B89F00BCB5DF /* BlackHole64chTests */,
+				952BA42525F3B89F00BCB5DF /* BlackHole64chUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		952BA40325F3B89D00BCB5DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954C05ED25FCFD7A005B94C5 /* BlackHole64ch.app in Resources */,
+				952BA41025F3B89F00BCB5DF /* Preview Assets.xcassets in Resources */,
+				952BA40D25F3B89F00BCB5DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952BA41925F3B89F00BCB5DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952BA42425F3B89F00BCB5DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		952BA40125F3B89D00BCB5DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952BA41525F3B89F00BCB5DF /* BlackHole64ch.xcdatamodeld in Sources */,
+				952BA41225F3B89F00BCB5DF /* Persistence.swift in Sources */,
+				952BA40B25F3B89D00BCB5DF /* ContentView.swift in Sources */,
+				952BA40925F3B89D00BCB5DF /* BlackHole64chApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952BA41725F3B89F00BCB5DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952BA42025F3B89F00BCB5DF /* BlackHole64chTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952BA42225F3B89F00BCB5DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952BA42B25F3B89F00BCB5DF /* BlackHole64chUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		952BA41D25F3B89F00BCB5DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 952BA40425F3B89D00BCB5DF /* BlackHole64ch */;
+			targetProxy = 952BA41C25F3B89F00BCB5DF /* PBXContainerItemProxy */;
+		};
+		952BA42825F3B89F00BCB5DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 952BA40425F3B89D00BCB5DF /* BlackHole64ch */;
+			targetProxy = 952BA42725F3B89F00BCB5DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		952BA42D25F3B89F00BCB5DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		952BA42E25F3B89F00BCB5DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		952BA43025F3B89F00BCB5DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BlackHole64ch/Preview Content\"";
+				DEVELOPMENT_TEAM = VE534U35C6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BlackHole64ch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ICST.BlackHole64ch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		952BA43125F3B89F00BCB5DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BlackHole64ch/Preview Content\"";
+				DEVELOPMENT_TEAM = VE534U35C6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BlackHole64ch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ICST.BlackHole64ch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		952BA43325F3B89F00BCB5DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VE534U35C6;
+				INFOPLIST_FILE = BlackHole64chTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ICST.BlackHole64chTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlackHole64ch.app/BlackHole64ch";
+			};
+			name = Debug;
+		};
+		952BA43425F3B89F00BCB5DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VE534U35C6;
+				INFOPLIST_FILE = BlackHole64chTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ICST.BlackHole64chTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlackHole64ch.app/BlackHole64ch";
+			};
+			name = Release;
+		};
+		952BA43625F3B89F00BCB5DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VE534U35C6;
+				INFOPLIST_FILE = BlackHole64chUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ICST.BlackHole64chUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlackHole64ch;
+			};
+			name = Debug;
+		};
+		952BA43725F3B89F00BCB5DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VE534U35C6;
+				INFOPLIST_FILE = BlackHole64chUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ICST.BlackHole64chUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlackHole64ch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		952BA40025F3B89D00BCB5DF /* Build configuration list for PBXProject "BlackHole64ch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952BA42D25F3B89F00BCB5DF /* Debug */,
+				952BA42E25F3B89F00BCB5DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		952BA42F25F3B89F00BCB5DF /* Build configuration list for PBXNativeTarget "BlackHole64ch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952BA43025F3B89F00BCB5DF /* Debug */,
+				952BA43125F3B89F00BCB5DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		952BA43225F3B89F00BCB5DF /* Build configuration list for PBXNativeTarget "BlackHole64chTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952BA43325F3B89F00BCB5DF /* Debug */,
+				952BA43425F3B89F00BCB5DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		952BA43525F3B89F00BCB5DF /* Build configuration list for PBXNativeTarget "BlackHole64chUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952BA43625F3B89F00BCB5DF /* Debug */,
+				952BA43725F3B89F00BCB5DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		952BA41325F3B89F00BCB5DF /* BlackHole64ch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				952BA41425F3B89F00BCB5DF /* BlackHole64ch.xcdatamodel */,
+			);
+			currentVersion = 952BA41425F3B89F00BCB5DF /* BlackHole64ch.xcdatamodel */;
+			path = BlackHole64ch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 952BA3FD25F3B89D00BCB5DF /* Project object */;
+}
